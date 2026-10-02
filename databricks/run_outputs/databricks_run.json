@@ -1,0 +1,28 @@
+{
+ "uploads": {
+  "vgsales.csv": {
+   "bytes": 1355781,
+   "secs": 3.2
+  },
+  "Video_Games_Sales_as_at_22_Dec_2016.csv": {
+   "bytes": 1601320,
+   "secs": 3.3
+  }
+ },
+ "statements": 37,
+ "statement_secs": 155.9,
+ "notebook": "/Workspace/Shared/da-learn-19-video-game-sales/vgsales_pipeline_notebook",
+ "dashboard": {
+  "name": "da-learn-19 Video game sales",
+  "path": "/Shared/da-learn-19-video-game-sales/da-learn-19 Video game sales.lvdash.json",
+  "published": true,
+  "published_revision_time": "2026-10-02T16:59:46.566Z",
+  "widgets": 8
+ },
+ "row_counts_all_match": true,
+ "catalog": "workspace",
+ "schema": "da_learn_19",
+ "warehouse": "Serverless Starter Warehouse",
+ "volume": "/Volumes/workspace/da_learn_19/raw",
+ "last_step_run_ist": "2026-10-02 22:30 IST"
+}

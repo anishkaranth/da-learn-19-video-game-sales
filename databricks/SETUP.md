@@ -11,7 +11,7 @@ published over the resulting tables. The shared warehouse is left to auto-stop.
 | Dashboard (published) | **da-learn-19 Video game sales** (1 page: 2 counters + 6 charts = 8 visuals) |
 
 ## DuckDB vs Databricks
-Executed 2026-10-02, 22:12-22:16 IST on the Serverless Starter Warehouse (37 statements, ~170 s of statement time).
+Executed 2026-10-02 (final run 22:27-22:30 IST) on the Serverless Starter Warehouse (37 statements, ~156 s of statement time).
 All **9 stg/cln/dim/fact tables have identical row counts** on both engines (stg 16,598 / 16,719; cln_game_sales and
 fact 16,596; cln_vg_ratings 10,045; dims 31 / 12 / 578 / 40). `dq_assertions` 12/12 PASS on both. Every compared KPI
 table matches cell for cell except one median: `a_critic_score_bands` 90+ median 1.54 M (Databricks `percentile_approx`)

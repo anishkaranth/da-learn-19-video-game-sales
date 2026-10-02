@@ -1,0 +1,47 @@
+{
+ "snapshot": "headline KPIs + run config",
+ "project": "da-learn-19-video-game-sales",
+ "source_mode": "sample",
+ "config": {"engine": "duckdb (local, full data) + Databricks serverless SQL", "sql_dialect": "Spark/Databricks SQL + DuckDB shims (sql/00)", "units": "millions of units sold (vgchartz estimates, physical retail)", "snapshot": "vgsales Oct-2016; ratings 22-Dec-2016", "dedupe": "title x platform x year (keep best rank)", "ratings_join": "lower(title) + platform; User_Score x10, tbd -> NULL", "trend_years": "1980-2016", "sample_rule": "data/raw = every 200th vgchartz rank + matching ratings rows"},
+ "headline": {"titles": 83, "distinct_games": 83, "global_sales_m": 119.85, "na_share_pct": 52.83, "eu_share_pct": 31.17, "jp_share_pct": 6.84, "other_share_pct": 9.16, "avg_sales_per_title_m": 1.444, "median_sales_per_title_m": 0.18, "million_sellers": 11, "million_seller_pct": 13.25, "platforms": 16, "publishers": 36, "critic_score_coverage_pct": 40.96, "corr_critic_vs_sales": 0.0857, "corr_critic_vs_log_sales": 0.428},
+ "top": {
+  "top5_platforms": [
+   {"platform": "WII", "global_sales_m": 84.88, "share_pct": 70.82},
+   {"platform": "GB", "global_sales_m": 5.7, "share_pct": 4.76},
+   {"platform": "PS", "global_sales_m": 5.45, "share_pct": 4.55},
+   {"platform": "PS2", "global_sales_m": 4.87, "share_pct": 4.06},
+   {"platform": "X360", "global_sales_m": 4.73, "share_pct": 3.95}
+  ],
+  "top5_genres": [
+   {"genre": "Sports", "global_sales_m": 86.86, "share_of_jp_pct": 52.75},
+   {"genre": "Platform", "global_sales_m": 6.74, "share_of_jp_pct": 6.84},
+   {"genre": "Shooter", "global_sales_m": 4.89, "share_of_jp_pct": 0.37},
+   {"genre": "Action", "global_sales_m": 4.6, "share_of_jp_pct": 0.37},
+   {"genre": "Adventure", "global_sales_m": 3.63, "share_of_jp_pct": 0.0}
+  ],
+  "top5_publishers": [
+   {"publisher": "Nintendo", "global_sales_m": 88.37, "cumulative_share_pct": 73.73},
+   {"publisher": "Activision", "global_sales_m": 7.74, "cumulative_share_pct": 80.19},
+   {"publisher": "Electronic Arts", "global_sales_m": 4.74, "cumulative_share_pct": 84.15},
+   {"publisher": "THQ", "global_sales_m": 4.09, "cumulative_share_pct": 87.56},
+   {"publisher": "Ubisoft", "global_sales_m": 2.81, "cumulative_share_pct": 89.9}
+  ],
+  "hit_concentration": [
+   {"segment": "bottom 50% of titles", "titles": 41, "global_sales_m": 2.92, "share_pct": 2.44},
+   {"segment": "top 1% of titles", "titles": 1, "global_sales_m": 82.74, "share_pct": 69.04},
+   {"segment": "top 10% of titles", "titles": 9, "global_sales_m": 101.73, "share_pct": 84.88}
+  ],
+  "critic_bands": [
+   {"critic_band": "1: <50", "titles": 1, "avg_sales_m": 0.05, "million_seller_pct": 0.0},
+   {"critic_band": "2: 50-59", "titles": 4, "avg_sales_m": 0.082, "million_seller_pct": 0.0},
+   {"critic_band": "3: 60-69", "titles": 10, "avg_sales_m": 0.269, "million_seller_pct": 10.0},
+   {"critic_band": "4: 70-79", "titles": 10, "avg_sales_m": 8.904, "million_seller_pct": 40.0},
+   {"critic_band": "5: 80-89", "titles": 8, "avg_sales_m": 0.554, "million_seller_pct": 12.5},
+   {"critic_band": "6: 90+", "titles": 1, "avg_sales_m": 2.08, "million_seller_pct": 100.0},
+   {"critic_band": "No score", "titles": 49, "avg_sales_m": 0.433, "million_seller_pct": 8.16}
+  ]
+ },
+ "row_counts": {"game_sales": 83, "vg_ratings": 45, "fact_game_sales": 83, "dim_platform": 16, "dim_genre": 12, "dim_publisher": 36, "dim_year": 23},
+ "assertions_passed": 12,
+ "assertions_total": 12
+}

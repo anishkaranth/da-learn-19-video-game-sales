@@ -1,0 +1,121 @@
+{
+ "row_counts": [
+  {
+   "table": "stg_vgsales",
+   "duckdb_rows": 16598,
+   "databricks_rows": 16598,
+   "match": true
+  },
+  {
+   "table": "stg_vg_ratings",
+   "duckdb_rows": 16719,
+   "databricks_rows": 16719,
+   "match": true
+  },
+  {
+   "table": "cln_game_sales",
+   "duckdb_rows": 16596,
+   "databricks_rows": 16596,
+   "match": true
+  },
+  {
+   "table": "cln_vg_ratings",
+   "duckdb_rows": 10045,
+   "databricks_rows": 10045,
+   "match": true
+  },
+  {
+   "table": "fact_game_sales",
+   "duckdb_rows": 16596,
+   "databricks_rows": 16596,
+   "match": true
+  },
+  {
+   "table": "dim_platform",
+   "duckdb_rows": 31,
+   "databricks_rows": 31,
+   "match": true
+  },
+  {
+   "table": "dim_genre",
+   "duckdb_rows": 12,
+   "databricks_rows": 12,
+   "match": true
+  },
+  {
+   "table": "dim_publisher",
+   "duckdb_rows": 578,
+   "databricks_rows": 578,
+   "match": true
+  },
+  {
+   "table": "dim_year",
+   "duckdb_rows": 40,
+   "databricks_rows": 40,
+   "match": true
+  }
+ ],
+ "table_comparisons": {
+  "a_kpi_headline": {
+   "rows_databricks": 1,
+   "rows_duckdb": 1,
+   "cell_diffs": [],
+   "n_cell_diffs": 0
+  },
+  "dq_assertions": {
+   "rows_databricks": 12,
+   "rows_duckdb": 12,
+   "cell_diffs": [],
+   "n_cell_diffs": 0
+  },
+  "a_platform_sales": {
+   "rows_databricks": 31,
+   "rows_duckdb": 31,
+   "cell_diffs": [],
+   "n_cell_diffs": 0
+  },
+  "a_genre_region": {
+   "rows_databricks": 12,
+   "rows_duckdb": 12,
+   "cell_diffs": [],
+   "n_cell_diffs": 0
+  },
+  "a_publisher_top": {
+   "rows_databricks": 578,
+   "rows_duckdb": 578,
+   "cell_diffs": [],
+   "n_cell_diffs": 0
+  },
+  "a_critic_score_bands": {
+   "rows_databricks": 7,
+   "rows_duckdb": 7,
+   "cell_diffs": [
+    {
+     "row": "6: 90+",
+     "col": "median_sales_m",
+     "databricks": "1.54",
+     "duckdb": "1.555"
+    }
+   ],
+   "n_cell_diffs": 1
+  },
+  "a_hit_concentration": {
+   "rows_databricks": 3,
+   "rows_duckdb": 3,
+   "cell_diffs": [],
+   "n_cell_diffs": 0
+  },
+  "a_esrb_rating": {
+   "rows_databricks": 8,
+   "rows_duckdb": 8,
+   "cell_diffs": [],
+   "n_cell_diffs": 0
+  },
+  "dq_issues": {
+   "rows_databricks": 13,
+   "rows_duckdb": 13,
+   "cell_diffs": [],
+   "n_cell_diffs": 0
+  }
+ }
+}

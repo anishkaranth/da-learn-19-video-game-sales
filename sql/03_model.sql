@@ -30,7 +30,7 @@ FROM (SELECT publisher, COUNT(*) AS titles FROM cln_game_sales GROUP BY publishe
 
 CREATE OR REPLACE TABLE dim_year AS
 SELECT CAST(COALESCE(release_year, 0) AS INT) AS year_key, release_year,
-       era, CASE WHEN release_year IS NULL THEN 'Unknown' ELSE concat(CAST(FLOOR(release_year / 10) * 10 AS STRING), 's') END AS decade
+       era, CASE WHEN release_year IS NULL THEN 'Unknown' ELSE concat(CAST(CAST(FLOOR(release_year / 10) * 10 AS INT) AS STRING), 's') END AS decade
 FROM (SELECT DISTINCT release_year, era FROM cln_game_sales) y;
 
 CREATE OR REPLACE TABLE fact_game_sales AS
