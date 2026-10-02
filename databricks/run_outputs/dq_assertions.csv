@@ -1,0 +1,13 @@
+check_name,failed_rows,status
+critic_score in 0..100,0,PASS
+dim_publisher.publisher unique,0,PASS
+fact rows = cleaned rows (no fan-out / loss in joins),0,PASS
+fact.genre_key -> dim_genre,0,PASS
+fact.platform_key -> dim_platform,0,PASS
+fact.publisher_key -> dim_publisher,0,PASS
+fact.year_key -> dim_year,0,PASS
+fact_game_sales.game_id unique,0,PASS
+global sales reconcile with regions within 1% overall,0,PASS
+platform share sums to 100%,0,PASS
+regional sales >= 0,0,PASS
+user_score in 0..100,0,PASS

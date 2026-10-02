@@ -1,0 +1,6 @@
+entity,column_name,raw_null_pct,clean_null_pct,treatment
+fact_game_sales,critic_score,,51.5,after title+platform match
+game_sales,Publisher,0.349,0.0,mapped to Unknown
+game_sales,Year,1.633,1.627,"kept, year_key 0 / era Unknown"
+vg_ratings,Critic_Score,51.331,19.034,NULL = no Metacritic score
+vg_ratings,User_Score,54.603,24.48,"tbd -> NULL, rescaled x10"

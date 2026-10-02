@@ -1,0 +1,2 @@
+titles,distinct_games,global_sales_m,na_share_pct,eu_share_pct,jp_share_pct,other_share_pct,avg_sales_per_title_m,median_sales_per_title_m,million_sellers,million_seller_pct,platforms,publishers,critic_score_coverage_pct,corr_critic_vs_sales,corr_critic_vs_log_sales
+16596,11493,8920.41,49.27,27.3,14.48,8.95,0.538,0.17,2081,12.54,31,578,48.5,0.2455,0.3902

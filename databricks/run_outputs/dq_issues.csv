@@ -1,0 +1,14 @@
+check_name,affected_rows
+RI: fact rows lost in dim joins,0
+fact: titles matched to a critic score,8049
+fact: titles with any ratings match,9932
+game_sales: Global_Sales <> sum of regions by > 0.02M (rounding),7
+game_sales: Publisher N/A or Unknown,261
+"game_sales: Year > 2016 snapshot (kept, excluded from trends)",4
+game_sales: Year N/A (kept as Unknown),270
+game_sales: duplicate title x platform x year rows dropped,2
+game_sales: zero-sales rows (Global_Sales = 0),0
+vg_ratings: ESRB K-A recoded to E,3
+vg_ratings: User_Score = tbd (set NULL),2425
+vg_ratings: duplicate title x platform rows dropped,4
+vg_ratings: rows without any score/rating (dropped),6668

@@ -1,0 +1,8 @@
+entity,raw_rows,distinct_keys,clean_rows,grain
+dim_genre,,,12,genre
+dim_platform,,,31,platform
+dim_publisher,,,578,publisher
+dim_year,,,40,release year (0 = unknown)
+fact_game_sales,,,16596,title x platform
+game_sales,16598,16596,16596,title x platform x year
+vg_ratings,16719,16714,10045,title x platform (rows with any score/rating)
