@@ -1,0 +1,11 @@
+data/raw_full/
+data/clean_full/
+__pycache__/
+*.duckdb
+.venv/
+_old/
+results/tables/a_publisher_top.csv
+databricks/run_outputs/a_publisher_top.csv
+results/sample/metrics.json
+results/sample/tables/
+results/sample/charts/
