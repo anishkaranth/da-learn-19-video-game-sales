@@ -33,7 +33,7 @@
   ],
   "critic_bands": [
    {"critic_band": "1: <50", "titles": 1, "avg_sales_m": 0.05, "million_seller_pct": 0.0},
-   {"critic_band": "2: 50-59", "titles": 4, "avg_sales_m": 0.082, "million_seller_pct": 0.0},
+   {"critic_band": "2: 50-59", "titles": 4, "avg_sales_m": 0.083, "million_seller_pct": 0.0},
    {"critic_band": "3: 60-69", "titles": 10, "avg_sales_m": 0.269, "million_seller_pct": 10.0},
    {"critic_band": "4: 70-79", "titles": 10, "avg_sales_m": 8.904, "million_seller_pct": 40.0},
    {"critic_band": "5: 80-89", "titles": 8, "avg_sales_m": 0.554, "million_seller_pct": 12.5},

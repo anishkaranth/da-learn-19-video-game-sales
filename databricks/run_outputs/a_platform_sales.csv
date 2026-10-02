@@ -1,0 +1,32 @@
+platform,platform_maker,platform_type,first_year,last_year,titles,global_sales_m,share_pct,avg_sales_per_title_m,million_sellers
+2600,Other,Home console,1980,1989,133,97.08,1.09,0.73,26
+3DO,Other,Home console,1994,1995,3,0.1,0.0,0.033,0
+3DS,Nintendo,Handheld,2011,2016,509,247.46,2.77,0.486,47
+DC,Sega,Home console,1998,2008,52,15.97,0.18,0.307,6
+DS,Nintendo,Handheld,1985,2020,2163,822.49,9.22,0.38,144
+GB,Nintendo,Handheld,1988,2001,98,255.45,2.86,2.607,55
+GBA,Nintendo,Handheld,2000,2007,822,318.5,3.57,0.387,70
+GC,Nintendo,Home console,2001,2007,556,199.36,2.23,0.359,46
+GEN,Sega,Home console,1990,1994,27,28.36,0.32,1.05,11
+GG,Sega,Handheld,1992,1992,1,0.04,0.0,0.04,0
+N64,Nintendo,Home console,1996,2002,319,218.88,2.45,0.686,51
+NES,Nintendo,Home console,1983,1994,98,251.07,2.81,2.562,74
+NG,Other,Home console,1993,1996,12,1.44,0.02,0.12,0
+PC,PC,PC,1985,2016,960,258.82,2.9,0.27,69
+PCFX,Other,Home console,1996,1996,1,0.03,0.0,0.03,0
+PS,Sony,Home console,1994,2003,1196,730.66,8.19,0.611,206
+PS2,Sony,Home console,2000,2011,2161,1255.64,14.08,0.581,325
+PS3,Sony,Home console,2006,2016,1328,957.83,10.74,0.721,247
+PS4,Sony,Home console,2013,2017,336,278.1,3.12,0.828,73
+PSP,Sony,Handheld,2004,2015,1213,296.28,3.32,0.244,57
+PSV,Sony,Handheld,2011,2017,413,61.93,0.69,0.15,8
+SAT,Sega,Home console,1994,1999,173,33.59,0.38,0.194,3
+SCD,Sega,Home console,1993,1994,6,1.87,0.02,0.312,1
+SNES,Nintendo,Home console,1990,1999,239,200.05,2.24,0.837,48
+TG16,Other,Home console,1995,1995,2,0.16,0.0,0.08,0
+WII,Nintendo,Home console,2006,2015,1324,926.69,10.39,0.7,162
+WIIU,Nintendo,Home console,2012,2016,143,81.86,0.92,0.572,19
+WS,Other,Handheld,1999,2001,6,1.42,0.02,0.237,0
+X360,Microsoft,Home console,2005,2016,1265,979.96,10.99,0.775,236
+XB,Microsoft,Home console,2000,2008,824,258.26,2.9,0.313,54
+XONE,Microsoft,Home console,2013,2016,213,141.06,1.58,0.662,43
